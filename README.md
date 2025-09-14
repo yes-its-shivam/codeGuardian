@@ -1,12 +1,5 @@
 # 🛡️ Code Guardian
 
-> **The world's first comprehensive analyzer for AI-generated code quality and security**
-
-[![PyPI version](https://badge.fury.io/py/codeGuardian.svg)](https://badge.fury.io/py/codeGuardian)
-[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Tests](https://github.com/yes-its-shivam/codeGuardian/actions/workflows/tests.yml/badge.svg)](https://github.com/yes-its-shivam/codeGuardian/actions)
-
 ---
 
 ## 🚨 The Problem
