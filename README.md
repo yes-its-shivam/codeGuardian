@@ -193,31 +193,6 @@ repos:
 }
 ```
 
-## 📈 Real-World Results
-
-Organizations using Code Guardian report:
-
-- **87% reduction** in security vulnerabilities from AI code
-- **43% improvement** in code maintainability scores
-- **31% faster** code review cycles
-- **92% developer satisfaction** with AI code quality insights
-
-> *"Code Guardian helped us catch 23 critical security issues in our AI-generated authentication module before deployment. It's now a mandatory part of our development workflow."*
->
-> — **Sarah Chen, Principal Engineer at TechCorp**
-
-## 🤝 Contributing
-
-We love contributions! Here's how to get started:
-
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
-3. **Make your changes** and add tests
-4. **Run the test suite**: `pytest`
-5. **Submit a pull request**
-
-See our [Contributing Guide](CONTRIBUTING.md) for detailed instructions.
-
 ### Development Setup
 
 ```bash
@@ -234,11 +209,6 @@ pytest
 # Run linting
 black . && isort . && mypy .
 ```
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
 <div align="center">
