@@ -9,7 +9,7 @@ description = "AI-generated code quality analyzer and security scanner"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-    {name = "Shivam", email = "shivam@example.com"}
+    {name = "Shivam", email = "shivamjindal0705@gmail.com"}
 ]
 keywords = ["ai", "code-quality", "security", "static-analysis", "python"]
 classifiers = [

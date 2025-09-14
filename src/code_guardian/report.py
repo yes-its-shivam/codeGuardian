@@ -91,7 +91,7 @@ class ReportGenerator:
                     "driver": {
                         "name": "Code Guardian",
                         "version": "0.1.0",
-                        "informationUri": "https://github.com/yourusername/codeGuardian",
+                        "informationUri": "https://github.com/yes-its-shivam/codeGuardian",
                         "rules": self._get_sarif_rules(results.issues)
                     }
                 },
