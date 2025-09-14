@@ -1,0 +1,38 @@
+# AI Code Guardian Configuration
+version: 1
+
+# Security scanning settings
+security:
+  enabled: true
+  severity_threshold: medium
+
+# Performance analysis settings
+performance:
+  enabled: true
+  check_complexity: true
+  check_memory_usage: true
+
+# Maintainability scoring settings
+maintainability:
+  enabled: true
+  max_complexity: 10
+  max_function_length: 50
+
+# AI pattern detection
+ai_detection:
+  enabled: true
+  confidence_threshold: 0.7
+
+# File patterns to exclude
+exclude:
+  - "*.pyc"
+  - "__pycache__/"
+  - ".git/"
+  - "node_modules/"
+  - "venv/"
+  - ".env"
+
+# Report settings
+reporting:
+  include_source_snippets: true
+  max_issues_per_file: 20

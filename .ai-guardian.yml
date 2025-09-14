@@ -1,0 +1,54 @@
+# AI Code Guardian Configuration
+version: 1
+
+# Security scanning settings
+security:
+  enabled: true
+  severity_threshold: medium
+  check_sql_injection: true
+  check_xss: true
+  check_hardcoded_secrets: true
+  check_unsafe_deserialization: true
+  check_ai_vulnerabilities: true
+
+# Performance analysis settings
+performance:
+  enabled: true
+  check_complexity: true
+  check_memory_usage: true
+  check_inefficient_loops: true
+  max_complexity: 10
+
+# Maintainability scoring settings
+maintainability:
+  enabled: true
+  max_complexity: 10
+  max_function_length: 50
+  max_class_methods: 20
+  check_naming_conventions: true
+
+# AI pattern detection
+ai_detection:
+  enabled: true
+  confidence_threshold: 0.7
+  check_comment_patterns: true
+  check_code_patterns: true
+
+# File patterns to exclude
+exclude:
+  - "*.pyc"
+  - "__pycache__/"
+  - ".git/"
+  - "node_modules/"
+  - "venv/"
+  - ".env"
+  - "*.min.js"
+  - "*.min.css"
+  - "dist/"
+  - "build/"
+
+# Report settings
+reporting:
+  include_source_snippets: true
+  max_issues_per_file: 20
+  show_ai_confidence: true
