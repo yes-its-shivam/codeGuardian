@@ -18,8 +18,8 @@ def demo_ai_code_guardian():
 
     try:
         # Import components
-        from ai_code_guardian.config import Config
-        from ai_code_guardian.analyzer import CodeAnalyzer
+        from code_guardian.config import Config
+        from code_guardian.analyzer import CodeAnalyzer
 
         # Initialize
         config = Config()

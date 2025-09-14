@@ -1,8 +1,8 @@
 """Tests for the security scanner."""
 
 import pytest
-from ai_code_guardian.scanner import SecurityScanner
-from ai_code_guardian.config import Config
+from code_guardian.scanner import SecurityScanner
+from code_guardian.config import Config
 
 
 def test_security_scanner_initialization():

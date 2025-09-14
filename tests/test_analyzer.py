@@ -2,9 +2,9 @@
 
 import pytest
 from pathlib import Path
-from ai_code_guardian.analyzer import CodeAnalyzer
-from ai_code_guardian.models import Issue, AnalysisResults
-from ai_code_guardian.config import Config
+from code_guardian.analyzer import CodeAnalyzer
+from code_guardian.models import Issue, AnalysisResults
+from code_guardian.config import Config
 
 
 def test_analyzer_initialization():
