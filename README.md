@@ -210,6 +210,6 @@ black . && isort . && mypy .
 
 *Built with ❤️ for developers who care about code quality and security*
 
-[**Get Started**](https://pypi.org/project/codeGuardian/) • [**Documentation**](docs/) • [**Community**](https://discord.gg/codeGuardian)
+[**Get Started**](https://pypi.org/project/codeGuardian/) • [**Documentation**](docs/) 
 
 </div>
