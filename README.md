@@ -1,4 +1,4 @@
-# 🛡️ Code Guardian(a side hustle project, built over weekend, i might maintain it :))
+# 🛡️ Code Guardian(a side hustle project, built over weekend, i might maintain it 🤓)
 
 ---
 
