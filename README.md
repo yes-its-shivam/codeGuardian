@@ -235,54 +235,15 @@ pytest
 black . && isort . && mypy .
 ```
 
-## 🗺️ Roadmap
-
-### Q1 2024
-- [ ] **Language Expansion** - JavaScript, TypeScript, Java support
-- [ ] **IDE Plugins** - VS Code, PyCharm, Sublime Text
-- [ ] **Cloud Integration** - GitHub Actions, GitLab CI templates
-
-### Q2 2024
-- [ ] **Machine Learning** - Enhanced AI detection with neural networks
-- [ ] **Custom Rules** - User-defined security and quality rules
-- [ ] **Team Dashboards** - Web-based analytics and reporting
-
-### Q3 2024
-- [ ] **Enterprise Features** - SSO, RBAC, audit logging
-- [ ] **API Integration** - REST API for programmatic access
-- [ ] **Compliance Packs** - OWASP, NIST, SOC2 rule sets
-
-## 📚 Documentation
-
-- [📖 **User Guide**](docs/user-guide.md) - Comprehensive usage documentation
-- [🔧 **Configuration Reference**](docs/configuration.md) - All available settings
-- [🏗️ **Architecture Overview**](docs/architecture.md) - How it works under the hood
-- [🔌 **API Reference**](docs/api.md) - Programmatic usage guide
-- [❓ **FAQ**](docs/faq.md) - Frequently asked questions
-
-## 🏆 Recognition
-
-- **🥇 Featured in GitHub's "Trending Python Repositories"**
-- **🌟 DevSecOps Tool of the Month** - DevSecOps Weekly
-- **🏅 Security Innovation Award** - BSides San Francisco 2024
-- **📰 Coverage in The New Stack** - "AI Code Security Tools to Watch"
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙋‍♀️ Support
-
-- **📧 Email**: support@codeGuardian.com
-- **💬 Discord**: [Join our community](https://discord.gg/codeGuardian)
-- **🐛 Issues**: [GitHub Issues](https://github.com/yes-its-shivam/codeGuardian/issues)
-- **📚 Docs**: [Documentation Site](https://codeGuardian.readthedocs.io)
 
 ---
 
 <div align="center">
 
-**⭐ Star this repository if AI Code Guardian helps secure your codebase! ⭐**
+**⭐ Star this repository if Code Guardian helps secure your codebase! ⭐**
 
 *Built with ❤️ for developers who care about code quality and security*
 
