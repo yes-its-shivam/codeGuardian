@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# AI Code Guardian Installation Script
+# Code Guardian Installation Script
 
 set -e
 
-echo "🛡️ Installing AI Code Guardian..."
+echo "🛡️ Installing Code Guardian..."
 
 # Create virtual environment if it doesn't exist
 if [ ! -d "venv" ]; then
@@ -21,7 +21,7 @@ echo "⬆️ Upgrading pip..."
 pip install --upgrade pip
 
 # Install package in development mode
-echo "📚 Installing AI Code Guardian..."
+echo "📚 Installing Code Guardian..."
 pip install -e .
 
 # Install development dependencies

@@ -1,5 +1,5 @@
 """
-AI Code Guardian - AI-generated code quality analyzer and security scanner.
+Code Guardian - AI-generated code quality analyzer and security scanner.
 
 A comprehensive tool for analyzing AI-generated code for security vulnerabilities,
 performance issues, and maintainability problems.

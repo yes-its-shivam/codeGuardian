@@ -1,1 +1,1 @@
-# Tests for AI Code Guardian
+# Tests for Code Guardian

@@ -1,4 +1,4 @@
-⏺ 🧪 Testing AI Code Guardian on a Separate Codebase - Step by Step
+⏺ 🧪 Testing Code Guardian on a Separate Codebase - Step by Step
 
   🚀 Method 1: Test on Any Existing Project
 
@@ -217,7 +217,7 @@
   #!/bin/bash
   # test-ai-guardian.sh
 
-  echo "🛡️ Testing AI Code Guardian on Multiple Projects"
+  echo "🛡️ Testing Code Guardian on Multiple Projects"
 
   PROJECTS=(
       "https://github.com/psf/requests.git"

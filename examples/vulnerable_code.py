@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Example of vulnerable code that AI Code Guardian should detect.
+Example of vulnerable code that Code Guardian should detect.
 This file contains intentional security vulnerabilities for testing purposes.
 """
 

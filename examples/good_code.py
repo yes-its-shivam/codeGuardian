@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Example of well-written, secure code that follows best practices.
-This demonstrates what good code looks like to AI Code Guardian.
+This demonstrates what good code looks like to Code Guardian.
 """
 
 import hashlib

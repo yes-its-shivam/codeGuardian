@@ -1,4 +1,4 @@
-"""Data models for AI Code Guardian."""
+"""Data models for Code Guardian."""
 
 from dataclasses import dataclass, field
 from typing import Dict, List, Any

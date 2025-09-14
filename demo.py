@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Demo script to showcase AI Code Guardian functionality.
+Demo script to showcase Code Guardian functionality.
 Run this after installing dependencies: pip install -e .
 """
 
@@ -11,9 +11,9 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent / 'src'))
 
 def demo_ai_code_guardian():
-    """Demonstrate AI Code Guardian capabilities."""
+    """Demonstrate Code Guardian capabilities."""
 
-    print("🛡️ AI Code Guardian - Demo")
+    print("🛡️ Code Guardian - Demo")
     print("=" * 50)
 
     try:
@@ -25,7 +25,7 @@ def demo_ai_code_guardian():
         config = Config()
         analyzer = CodeAnalyzer(config)
 
-        print("✅ Successfully initialized AI Code Guardian!")
+        print("✅ Successfully initialized Code Guardian!")
         print(f"📊 Security Scanner: {'Enabled' if analyzer.security_scanner else 'Disabled'}")
         print(f"⚡ Performance Analyzer: {'Enabled' if analyzer.performance_analyzer else 'Disabled'}")
         print(f"🧹 Maintainability Scorer: {'Enabled' if analyzer.maintainability_scorer else 'Disabled'}")

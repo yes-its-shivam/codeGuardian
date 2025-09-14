@@ -1,4 +1,4 @@
-"""Main analyzer orchestrator for AI Code Guardian."""
+"""Main analyzer orchestrator for Code Guardian."""
 
 from pathlib import Path
 from typing import List, Dict, Any, Optional

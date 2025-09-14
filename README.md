@@ -1,4 +1,4 @@
-# 🛡️ AI Code Guardian
+# 🛡️ Code Guardian
 
 > **The world's first comprehensive analyzer for AI-generated code quality and security**
 
@@ -15,11 +15,11 @@
 
 Research shows that **AI makes experienced developers 19% slower** while they *think* it's making them 20% faster. The gap between perception and reality is dangerous.
 
-> 💡 **"Even GitHub's own security scanning flagged our intentionally vulnerable examples during development - proving that security tools like AI Code Guardian are essential!"**
+> 💡 **"Even GitHub's own security scanning flagged our intentionally vulnerable examples during development - proving that security tools like Code Guardian are essential!"**
 
 ## ✨ The Solution
 
-AI Code Guardian fills this critical gap by providing comprehensive analysis of AI-generated code:
+Code Guardian fills this critical gap by providing comprehensive analysis of AI-generated code:
 
 - 🔐 **Security Scanner** - Detects AI-specific vulnerabilities and common security flaws
 - ⚡ **Performance Analyzer** - Identifies inefficient patterns AI often creates
@@ -51,7 +51,7 @@ ai-guardian init .
 ### Example Output
 
 ```
-🛡️ AI Code Guardian Report
+🛡️ Code Guardian Report
 
 📊 Analysis Results
 ┌─────────────────────────┬───────┬────────┐
@@ -155,7 +155,7 @@ exclude:
 
 ```yaml
 # GitHub Actions example
-- name: AI Code Guardian Scan
+- name: Code Guardian Scan
   run: |
     pip install codeGuardian
     ai-guardian scan . --format json --output security-report.json
@@ -175,7 +175,7 @@ repos:
   - repo: local
     hooks:
       - id: ai-guardian
-        name: AI Code Guardian
+        name: Code Guardian
         entry: ai-guardian scan
         language: system
         files: \\.py$
@@ -195,14 +195,14 @@ repos:
 
 ## 📈 Real-World Results
 
-Organizations using AI Code Guardian report:
+Organizations using Code Guardian report:
 
 - **87% reduction** in security vulnerabilities from AI code
 - **43% improvement** in code maintainability scores
 - **31% faster** code review cycles
 - **92% developer satisfaction** with AI code quality insights
 
-> *"AI Code Guardian helped us catch 23 critical security issues in our AI-generated authentication module before deployment. It's now a mandatory part of our development workflow."*
+> *"Code Guardian helped us catch 23 critical security issues in our AI-generated authentication module before deployment. It's now a mandatory part of our development workflow."*
 >
 > — **Sarah Chen, Principal Engineer at TechCorp**
 

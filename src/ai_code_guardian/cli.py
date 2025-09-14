@@ -1,4 +1,4 @@
-"""Command-line interface for AI Code Guardian."""
+"""Command-line interface for Code Guardian."""
 
 import click
 from pathlib import Path
@@ -16,7 +16,7 @@ console = Console()
 @click.group()
 @click.version_option()
 def cli():
-    """AI Code Guardian - Analyze AI-generated code for quality and security issues."""
+    """Code Guardian - Analyze AI-generated code for quality and security issues."""
     pass
 
 
@@ -137,7 +137,7 @@ def init(path: str):
         return
 
     # Create default configuration
-    default_config = """# AI Code Guardian Configuration
+    default_config = """# Code Guardian Configuration
 version: 1
 
 # Security scanning settings

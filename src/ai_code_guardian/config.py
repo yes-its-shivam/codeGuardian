@@ -1,4 +1,4 @@
-"""Configuration management for AI Code Guardian."""
+"""Configuration management for Code Guardian."""
 
 from pathlib import Path
 from typing import Dict, Any, List, Optional
@@ -6,7 +6,7 @@ import yaml
 
 
 class Config:
-    """Configuration manager for AI Code Guardian."""
+    """Configuration manager for Code Guardian."""
 
     def __init__(self, config_dict: Optional[Dict[str, Any]] = None):
         """Initialize configuration with default values."""

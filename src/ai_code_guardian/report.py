@@ -1,4 +1,4 @@
-"""Report generation for AI Code Guardian analysis results."""
+"""Report generation for Code Guardian analysis results."""
 
 import json
 import datetime
@@ -21,7 +21,7 @@ class ReportGenerator:
         """Generate a JSON report."""
         report_data = {
             'metadata': {
-                'tool': 'AI Code Guardian',
+                'tool': 'Code Guardian',
                 'version': '0.1.0',
                 'generated_at': datetime.datetime.now().isoformat(),
                 'execution_time': results.execution_time,
@@ -89,7 +89,7 @@ class ReportGenerator:
             "runs": [{
                 "tool": {
                     "driver": {
-                        "name": "AI Code Guardian",
+                        "name": "Code Guardian",
                         "version": "0.1.0",
                         "informationUri": "https://github.com/yourusername/codeGuardian",
                         "rules": self._get_sarif_rules(results.issues)
@@ -150,7 +150,7 @@ class ReportGenerator:
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Code Guardian Report</title>
+    <title>Code Guardian Report</title>
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; margin: 0; padding: 20px; background: #f8f9fa; }
         .container { max-width: 1200px; margin: 0 auto; }
@@ -185,7 +185,7 @@ class ReportGenerator:
 <body>
     <div class="container">
         <div class="header">
-            <h1 class="title">🛡️ AI Code Guardian Report</h1>
+            <h1 class="title">🛡️ Code Guardian Report</h1>
             <p class="subtitle">Generated on {{ generated_at }}</p>
         </div>
 

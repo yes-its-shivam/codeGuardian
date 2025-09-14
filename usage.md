@@ -1,6 +1,6 @@
   📚 Complete Usage Guide
 
-  🛡️ AI Code Guardian - Complete Usage Guide
+  🛡️ Code Guardian - Complete Usage Guide
 
   🚀 Installation
 
@@ -87,7 +87,7 @@
 
   {
     "metadata": {
-      "tool": "AI Code Guardian",
+      "tool": "Code Guardian",
       "version": "0.1.0",
       "generated_at": "2024-01-15T10:30:00",
       "execution_time": 2.43
@@ -168,7 +168,7 @@
         with:
           python-version: '3.9+'
 
-      - name: Install AI Code Guardian
+      - name: Install Code Guardian
         run: |
           pip install codeGuardian
 
@@ -190,7 +190,7 @@
     - repo: local
       hooks:
         - id: ai-guardian
-          name: AI Code Guardian Security Scan
+          name: Code Guardian Security Scan
           entry: ai-guardian scan
           language: system
           files: \\.py$
