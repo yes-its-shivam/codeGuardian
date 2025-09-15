@@ -26,7 +26,9 @@ Code Guardian fills this critical gap by providing comprehensive analysis of AI-
 ### Installation
 
 ```bash
-pip install codeGuardian
+git clone https://github.com/yes-its-shivam/codeGuardian.git
+cd codeGuardian
+pip install -e .
 ```
 
 ### Basic Usage
